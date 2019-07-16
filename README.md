@@ -5,6 +5,6 @@ This site is to showcase web development portfolio as skills are learned and hon
 *_TODO:_*  
 * [ ] Fix responsiveness of code_block class to be 80% but never less than 900px.  
 * [X] Fix formatting of of code_block table  
-* [ ] Add footer  
+* [X] Add footer  
 * [ ] Add ability to switch to light mode  
 * [X] Add sytax highlighting to text  
