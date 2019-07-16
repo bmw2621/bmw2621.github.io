@@ -7,9 +7,9 @@ a {
 }
 
 body {
-  background-color: #282C34;
+  background-color: #DADADA;
   font-family: "Courier New", monospace, serif;
-  color: #9DA5B4;
+  color: #000000;
   text-size: 13px;
 }
 
@@ -24,10 +24,11 @@ td {
 }
 
 .header_section {
-  background-color: #353B45;
+  background-color: #4B5261;
   text-align: center;
   padding: 20px 0;
   margin: 0;
+  color: #9DA5B4;
 }
 
 .social {
@@ -41,25 +42,25 @@ td {
   margin-left: auto;
   margin-right: auto;
   box-shadow: 10px 10px 25px black;
-  border-color: #59C0A7;
+  border-color: #282C34;
   border-width: 1px;
   border-style: solid;
 }
 
 .purple {
-  color: #C678DD;
+  color: #995DAB;
 }
 
 .blue {
-  color: #56B6C2;
+  color: #3B7C85;
 }
 
 .red {
-  color: #E06C75;
+  color: #B5575F;
 }
 
 .tan {
-  color: #E5C07B;
+  color: #E66A00;
 }
 
 #left_col {

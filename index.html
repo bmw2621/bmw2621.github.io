@@ -22,6 +22,14 @@
     </div>
 
     <div class="code_block">
+        Test<br>
+        Test<br>
+        Test<br>
+        Test<br>
+        Test<br>
+    </div>
+
+    <div class="code_block">
       <table>
         <tbody>
           <tr>
@@ -134,63 +142,27 @@
               106<br>
               108<br>
               109<br>
-              107<br>
-              108<br>
-              109<br>
               110<br>
-              111<br>
-              112<br>
-              113<br>
-              114<br>
-              115<br>
-              116<br>
-              117<br>
-              118<br>
-              119<br>
-              120<br>
-              121<br>
-              122<br>
-              123<br>
-              124<br>
-              125<br>
-              126<br>
-              127<br>
-              128<br>
-              129<br>
-              130<br>
-              131<br>
-              132<br>
-              133<br>
-              134<br>
-              135<br>
-              136<br>
-              137<br>
-              138<br>
-              139<br>
-              140<br>
-              141<br>
-              142<br>
-              143<br>
-              144<br>
-              145<br>
-              146<br>
-              147<br>
-              148<br>
+
+
 
             </td>
-            <td id="right_col">
+            <td class="right_col">
 
 <pre>
-class BenjaminWinchester: <br>
+#! /usr/bin/python3
 
-  def __init__(self):<br>
-    self.location = “Savannah, GA"
-    self.email = “benjamin.m.winchester@googlemail.com”
-    self.phone = ######7436
-    self.security_clearance = (True, “Secret”)
-    self.education = [(“M.S. in Organizational Leadership”,“Norwich University”, 3.95),
+<span class="purple">class</span> <span class="tan">BenjaminWinchester</span>:
+
+  <span class="purple">def</span> <span class="blue">__init__</span>(self)</span>:
+
+    self.<span class="red">location</span> = “Savannah, GA"
+    self.<span class="red">email</span> = “benjamin.m.winchester@googlemail.com”
+    self.<span class="red">phone</span> = ######7436
+    self.<span class="red">security_clearance</span> = (True, “Secret”)
+    self.<span class="red">education</span> = [(“M.S. in Organizational Leadership”,“Norwich University”, 3.95),
                       (“B.A. in Media Arts”,“University of South Carolina – Columbia”,3.29)]
-    self.tech_skills = {“Languages”: [“Python, Core Java”],
+    self.<span class="red">tech_skills</span> = {“Languages”: [“Python, Core Java”],
                         “Databases”: “MariaDB/MySQL”,
                         “Platforms”: [“Windows 7/10”,“Linux (Debian and Arch)”]
                         “Concepts”: [“Data Analysis”,“Web Server Configuration”,“Web Design”]
@@ -200,91 +172,93 @@ class BenjaminWinchester: <br>
                                       pandas, numpy)”],
                         “Certs”: [(“Oracle Certified Java Programmer”, “In progress”),
                                   (“Dataquest Data Science Learning Track”, “In progress”),
-                                  ("CompTIA Linux+", "In progress")}<br>
-class WorkExperience:<br>
-    positions = []<br>
+                                  ("CompTIA Linux+", "In progress")}
+<span class="purple">class</span> <span class="tan">WorkExperience</span>:
 
-    def work(self, experience):
-        self.positions.append(experience)<br>
+    positions = []
 
-my_experience = WorkExperience()<br>
+    <span class="purple">def</span> <span class="blue">work</span>(self, experience):
+        self.<span class="red">positions</span>.<span class="blue">append</span>(experience)
 
-my_experience.work((“Simulations Officer/Knowledge Manager”,“US Army”,<br>
+my_experience = <span class="blue">WorkExperience</span>()
+
+my_experience.<span class="blue">work</span>((“Simulations Officer/Knowledge Manager”,“US Army”,
 
                     [“Transformed Brigade Knowledge Management repository to fully \
-                    employ capabilities of Microsoft SharePoint 2013”, \<br>
+                    employ capabilities of Microsoft SharePoint 2013”, \
 
                     “Led team of planners and simulation engineers to \
                     employ army simulation capabilities in a \
                     comprehensive constructive training exercise, \
                     enabling Aviation Brigade HQ to meet all \
                     training objectives for deployment to Eastern \
-                    Europe”,<br>
+                    Europe”,
 
                     “Developed MS Access tool for tracking flight \
                     data and generating data visualization reports.Demonstrated \
                     export functionality and integration with SharePoint to unit \
-                    leadership”]))<br>
+                    leadership”]))
 
-my_experience.work((“Assistant Professor of Military Science”, “US Army”,<br>
+my_experience.<span class="blue">work</span>((“Assistant Professor of Military Science”, “US Army”,
 
                     [“Instructed academic sophomores and juniors in \
                     leadership and military management, integrating the \
-                    Adult Learning Model to all instruction”,<br>
+                    Adult Learning Model to all instruction”,
 
                     “Transformed department’s manual processes to integrate \
                     Blackboard Learn learning management system”, \
                     “Transitioned program to SharePoint 2016 and integrated \
-                    Office 365 tools”,<br>
+                    Office 365 tools”,
 
                     “Developed MS Access tool using VBA and direct SQL \
                     queries for internal task management”, \
                     “Partnered with Department of History in experiential \
                     learning pedagogy by employing “Reacting to the Past” \
-                    program”]))<br>
+                    program”]))
 
-my_experience.work((“Infantry Company Commander”, “US Army”,<br>
+my_experience.<span class="blue">work</span>((“Infantry Company Commander”, “US Army”,
 
                   [“Recognized in annual evaluation as top 2 company \
                   commanders, best leader development program, and best \
-                  trained company in the battalion”, \<br>
+                  trained company in the battalion”, \
 
                   “Commanded infantry company of 139 personnel and \
                   maintained readiness of company in support of a \
                   mission requiring company to deploy anywhere in the \
-                  world in 72 hours”]))<br>
+                  world in 72 hours”]))
 
-my_experience.work((“Infantry Company Executive Officer”, “US Army”,<br>
+my_experience.<span class="blue">work</span>((“Infantry Company Executive Officer”, “US Army”,
 
                   [“Planned and supervised sustainment operations for 189 \
                   personnel distributed over five locations across \
                   southeast Afghanistan, maintaining unit readiness \
-                  throughout combat operations”,<br>
+                  throughout combat operations”,
 
                   “Transitioned company from dismounted mountain \
                   operations to mounted operations in two weeks, \
                   supervising the acquisition and maintenance reset of \
-                  28 vehicles”,<br>
+                  28 vehicles”,
 
                   “Planned and supervised redeployment of company, \
                   including transition of $36 million of equipment to \
                   incoming unit, packing and shipping of $55 million of \
-                  unit equipment from Afghanistan to Germany”]))<br>
+                  unit equipment from Afghanistan to Germany”]))
 
-class OtherActivitiesAndHobbies:
-    OAAH = []<br>
+<span class="purple">class</span> <span class="tan">OtherActivitiesAndHobbies</span>:
 
-    def activity(self, experience):
-        self.activity.append(experience)<br>
+    OAAH = []
 
-my_activities = OtherActivitiesAndHobbies()<br>
+    <span class="purple">def</span> <span class="blue">activity</span>(self, experience):
+        self.activity.append(experience)
 
-my_activities.activity((“Cartography and geospatial data visualization”,
-                        [“QGIS”,”Leaflet”]))<br>
-my_activities.activity((“Electronics”,
-                        [“Raspberry Pi”,”Arduino”]))<br>
-my_activities.activity((“3D modeling, photography, and graphic design”,
-                        [“Blender”, “Photoshop CC”, “Krita”, “GIMP”, “Inkscape]))<br>
+my_activities = <span class="blue">OtherActivitiesAndHobbies</span>()
+
+my_activities.<span class="blue">activity</span>((“Cartography and geospatial data visualization”,
+                        [“QGIS”,”Leaflet”]))
+my_activities.<span class="blue">activity</span>((“Electronics”,
+                        [“Raspberry Pi”,”Arduino”]))
+my_activities.<span class="blue">activity</span>((“3D modeling, photography, and graphic design”,
+                        [“Blender”, “Photoshop CC”, “Krita”, “GIMP”, “Inkscape]))
 </pre>
 
 
