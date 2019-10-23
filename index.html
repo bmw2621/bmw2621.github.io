@@ -1,325 +1,79 @@
 <!DOCTYPE html>
-<html lang='en'>
-  <head>
-    <meta charset='UTF-8'/>
-    <title>Benjamin Winchester</title>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+        <link rel="stylesheet" href="../styles/base.css">
+        <link rel="stylesheet" href="../styles/layout.css">
+        <link rel="stylesheet" href="../styles/state.css">
+        <script src="../scripts/index.js"></script>
+        <title>Ben Winchester</title>
+    </head>
+    <body>
+
+        <nav class="isHiddenTop" id="nav">
+            <img id="github" class="socialMediaLogo" src="images/github-logo.png" alt="">
+            <img id="codepen" class="socialMediaLogo" src="images/codepen-logo.png" alt="">
+            <img id="twitter" class="socialMediaLogo" src="images/twitter-logo.png" alt="">
+            <img id="linkedin" class="socialMediaLogo" src="images/linkedin-logo.png" alt="">
+            <div class="empty"></div>
+        </nav>
+        <div class="hamburger" id="hamburger">
+            <div class="hamburgerSlice"></div>
+            <div class="hamburgerSlice"></div>
+            <div class="hamburgerSlice"></div>
+        </div>
+
+        <div class="container isCenter" id="main">
+                <div id="bgMain"></div>
+                <div class="slideContent">
+                    <div class="content">
+                        Benjamin Winchester
+                        <br>
+                        <span class="sub" id="eegg">Web Developer</span>
+                    </div>
+                    <div class="arrows">
+                        <div class="leftArrow"><i class="left"></i></div>
+                        <div class="rightArrow"><i class="right"></i></div>
+                    </div>
+                    <a href="pages/about.html" class="button">Hire Me</a>
+                </div>
+        </div>
+
+        <div class="container isLeft" id="projects">
+                <div id="bgProjects"></div>
+                <div class="slideContent">
+                    <div class="content">
+                        Projects
+                        <br>
+                        <span class="sub">See whats up...</span>
+                    </div>
+                    <div class="arrows">
+                        <div class="leftArrow" style="visibility: hidden;"><i class="left"></i></div>
+                        <div class="rightArrow"><i class="right"></i></div>
+                    </div>
+                    <a href="pages/projects.html" class="button">Browse Work</a>
+                </div>
+        </div>
+
+        <div class="container isRight isHidden" id="blog">
+                <div id="bgBlog"></div>
+                <div class="slideContent">
+                    <div class="content">
+                        Blog
+                        <br>
+                        <span class="sub">Talk around the town...</span>
+                    </div>
+                    <div class="arrows">
+                        <div class="leftArrow"><i class="left"></i></div>
+                        <div class="rightArrow" style="visibility: hidden;"><i class="right"></i></div>
+                    </div>
+                    <a href="https://bmw2621.pythonanywhere.com/blog" class="button">Read Stuff</a>
+                </div>
+        </div>
 
 
-    <link rel="stylesheet" id="ss" type="text/css" href="styles.css">
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-
-    <script src="toggle.js"></script>
-
-
-  </head>
-  <body>
-
-
-
-
-    <div class="header_footer_section">
-      <div class="toggle-container">
-          <input type="checkbox" id="switch" onclick="setStyleSheet()"/><label for="switch"></label>
-      </div>
-      <h1>Benjamin M. Winchester</h1>
-
-      <p>Make the computer do the thing...</p><br>
-
-      <p>
-        <a href="https://wwww.linkedin.com/in/benjamin_m_winchester"><img class="social" src="images/linkedin-logo.png"> </a>
-        <a href="https://www.github.com/bmw2621"><img class="social" src="images/github-logo.png"> </a>
-        <a href="https://codepen.io/bmw2621/"><img class="social" src="images/codepen-logo.png"> </a>
-        <a href="https://twitter.com/b_m_winchester"><img class="social" src="images/twitter-logo.png"> </a>
-      </p>
-
-    </div>
-
-    <div class="code_block">
-        <table>
-          <tbody>
-            <tr>
-              <td class="left_col">
-                <img src="images/ben.jpg" height=200 align="top">
-                <br><br><br><br><br><br>[<b>ben</b>@<b>bmw2621.github.io</b> ~]<b>$</b> _
-              </td>
-              <td class="right_col">
-                <pre>
-  <b>ben</b>@<b>bmw2621.github.io</b>
-  ---------------------
-  <b>Name</b>: Benjamin winchester
-  <b>Home</b>: Savannah, GA
-  <b>Title</b>: Python Developer
-  <b>Email</b>: benjamin.m.winchester@googlemail.com
-  <b>Quote</b>: If you can dream--and not make dreams your master;
-                    If you can think--and not make thoughts your aim;
-                  ...
-                 If you can talk with crowds and keep your virtue;
-                   Or walk with Kings--nor lose the common touch,
-                 ...
-                 Yours is the Earth and everything that's in it,
-                   And--which is more--you'll be a Man, my son!
-                               ~Rudyard Kipling, excerpt from "If"
-                </pre>
-                <table border=0 align="center">
-                  <tr>
-                    <td bgcolor="#9D403C" width=30 height=20></td>
-                    <td bgcolor="#737573" width=30 height=20></td>
-                    <td bgcolor="#E3B97D" width=30 height=20></td>
-                    <td bgcolor="#72A1B2" width=30 height=20></td>
-                    <td bgcolor="#AB7FA1" width=30 height=20></td>
-                    <td bgcolor="#17AC8E" width=30 height=20></td>
-                    <td bgcolor="#C6C6C6" width=30 height=20></td>
-                  </tr>
-                </table>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-    </div>
-
-    <div class="code_block">
-      <table>
-        <tbody>
-          <tr>
-            <td id="left_col">
-              1<br>
-              2<br>
-              3<br>
-              4<br>
-              5<br>
-              6<br>
-              7<br>
-              8<br>
-              9<br>
-              10<br>
-              11<br>
-              12<br>
-              13<br>
-              14<br>
-              15<br>
-              16<br>
-              17<br>
-              18<br>
-              19<br>
-              20<br>
-              21<br>
-              22<br>
-              23<br>
-              24<br>
-              25<br>
-              26<br>
-              27<br>
-              28<br>
-              29<br>
-              30<br>
-              31<br>
-              32<br>
-              33<br>
-              34<br>
-              35<br>
-              36<br>
-              37<br>
-              38<br>
-              39<br>
-              40<br>
-              41<br>
-              42<br>
-              43<br>
-              44<br>
-              45<br>
-              46<br>
-              47<br>
-              48<br>
-              49<br>
-              50<br>
-              51<br>
-              52<br>
-              53<br>
-              54<br>
-              55<br>
-              56<br>
-              57<br>
-              58<br>
-              59<br>
-              60<br>
-              61<br>
-              62<br>
-              63<br>
-              64<br>
-              65<br>
-              66<br>
-              67<br>
-              68<br>
-              69<br>
-              70<br>
-              71<br>
-              72<br>
-              73<br>
-              74<br>
-              75<br>
-              76<br>
-              77<br>
-              78<br>
-              79<br>
-              80<br>
-              81<br>
-              82<br>
-              83<br>
-              84<br>
-              85<br>
-              86<br>
-              87<br>
-              88<br>
-              89<br>
-              90<br>
-              91<br>
-              92<br>
-              93<br>
-              94<br>
-              95<br>
-              96<br>
-              97<br>
-              98<br>
-              99<br>
-              100<br>
-              101<br>
-              102<br>
-              103<br>
-              104<br>
-              105<br>
-              106<br>
-              108<br>
-              109<br>
-              110<br>
-
-
-
-            </td>
-            <td class="right_col">
-
-<pre>#! /usr/bin/python3
-
-<span class="purple">class</span> <span class="tan">BenjaminWinchester</span>:
-
-  <span class="purple">def</span> <span class="blue">__init__</span>(self)</span>:
-
-    self.<span class="red">location</span> = “Savannah, GA"
-    self.<span class="red">email</span> = “benjamin.m.winchester@googlemail.com”
-    self.<span class="red">phone</span> = ######7436
-    self.<span class="red">security_clearance</span> = (True, “Secret”)
-    self.<span class="red">education</span> = [(“M.S. in Organizational Leadership”,“Norwich University”, 3.95),
-                      (“B.A. in Media Arts”,“University of South Carolina – Columbia”,3.29)]
-    self.<span class="red">tech_skills</span> = {“Languages”: [“Python, Core Java”],
-                        “Databases”: “MariaDB/MySQL”,
-                        “Platforms”: [“Windows 7/10”,“Linux (Debian and Arch)”]
-                        “Concepts”: [“Data Analysis”,“Web Server Configuration”,“Web Design”]
-                        “Expertise”: [“Linux OS deployment”,“Linux, Apache, MySQL, PHP”,
-                                      “Wordpress deployment”,“Python data collection/processing
-                                      Analysis tools (requests,BeautifulSoup4, matplotlib,
-                                      pandas, numpy)”],
-                        “Certs”: [(“Oracle Certified Java Programmer”, “In progress”),
-                                  (“Dataquest Data Science Learning Track”, “In progress”),
-                                  ("CompTIA Linux+", "In progress")}
-<span class="purple">class</span> <span class="tan">WorkExperience</span>:
-
-    positions = []
-
-    <span class="purple">def</span> <span class="blue">work</span>(self, experience):
-        self.<span class="red">positions</span>.<span class="blue">append</span>(experience)
-
-my_experience = <span class="blue">WorkExperience</span>()
-
-my_experience.<span class="blue">work</span>((“Simulations Officer/Knowledge Manager”,“US Army”,
-
-                    [“Transformed Brigade Knowledge Management repository to fully \
-                    employ capabilities of Microsoft SharePoint 2013”, \
-
-                    “Led team of planners and simulation engineers to \
-                    employ army simulation capabilities in a \
-                    comprehensive constructive training exercise, \
-                    enabling Aviation Brigade HQ to meet all \
-                    training objectives for deployment to Eastern \
-                    Europe”,
-
-                    “Developed MS Access tool for tracking flight \
-                    data and generating data visualization reports.Demonstrated \
-                    export functionality and integration with SharePoint to unit \
-                    leadership”]))
-
-my_experience.<span class="blue">work</span>((“Assistant Professor of Military Science”, “US Army”,
-
-                    [“Instructed academic sophomores and juniors in \
-                    leadership and military management, integrating the \
-                    Adult Learning Model to all instruction”,
-
-                    “Transformed department’s manual processes to integrate \
-                    Blackboard Learn learning management system”, \
-                    “Transitioned program to SharePoint 2016 and integrated \
-                    Office 365 tools”,
-
-                    “Developed MS Access tool using VBA and direct SQL \
-                    queries for internal task management”, \
-                    “Partnered with Department of History in experiential \
-                    learning pedagogy by employing “Reacting to the Past” \
-                    program”]))
-
-my_experience.<span class="blue">work</span>((“Infantry Company Commander”, “US Army”,
-
-                  [“Recognized in annual evaluation as top 2 company \
-                  commanders, best leader development program, and best \
-                  trained company in the battalion”, \
-
-                  “Commanded infantry company of 139 personnel and \
-                  maintained readiness of company in support of a \
-                  mission requiring company to deploy anywhere in the \
-                  world in 72 hours”]))
-
-my_experience.<span class="blue">work</span>((“Infantry Company Executive Officer”, “US Army”,
-
-                  [“Planned and supervised sustainment operations for 189 \
-                  personnel distributed over five locations across \
-                  southeast Afghanistan, maintaining unit readiness \
-                  throughout combat operations”,
-
-                  “Transitioned company from dismounted mountain \
-                  operations to mounted operations in two weeks, \
-                  supervising the acquisition and maintenance reset of \
-                  28 vehicles”,
-
-                  “Planned and supervised redeployment of company, \
-                  including transition of $36 million of equipment to \
-                  incoming unit, packing and shipping of $55 million of \
-                  unit equipment from Afghanistan to Germany”]))
-
-<span class="purple">class</span> <span class="tan">OtherActivitiesAndHobbies</span>:
-
-    OAAH = []
-
-    <span class="purple">def</span> <span class="blue">activity</span>(self, experience):
-        self.activity.append(experience)
-
-my_activities = <span class="blue">OtherActivitiesAndHobbies</span>()
-
-my_activities.<span class="blue">activity</span>((“Cartography and geospatial data visualization”,
-                        [“QGIS”,”Leaflet”]))
-my_activities.<span class="blue">activity</span>((“Electronics”,
-                        [“Raspberry Pi”,”Arduino”]))
-my_activities.<span class="blue">activity</span>((“3D modeling, photography, and graphic design”,
-                        [“Blender”, “Photoshop CC”, “Krita”, “GIMP”, “Inkscape]))
-</pre>
-
-
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <br><br>
-    <div class="header_footer_section">
-      <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br><br><br>
-      <br><br>
-      Code for toggle switch by <a href="https://codepen.io/ACS-STUDIOS/pen/EzyWwN">ACS Studios</a>
-    </div>
-  </body>
+    </body>
 </html>
