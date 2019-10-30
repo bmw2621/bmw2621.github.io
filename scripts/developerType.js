@@ -1,10 +1,6 @@
 var words = document.getElementById("eegg");
 var titles = ["Web Developer", "Data Analyst", "Programmer","3D Artist", "Photographer","Homebrewer"]
 
-const sleep = (milliseconds) => {
-  return new Promise(resolve => setTimeout(resolve, milliseconds))
-}
-
 async function addText(title) {
   for( let j = 0; j < title.length; j++){
     words.innerHTML += title.charAt(j)
