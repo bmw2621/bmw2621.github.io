@@ -105,6 +105,7 @@ hr {
 @media only screen and (min-width: 901px) {
     .container{
         justify-content: center;
+        box-shadow: 0px 5px 5px black;
     }
 
     .project, hr {
