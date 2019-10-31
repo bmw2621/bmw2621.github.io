@@ -18,6 +18,11 @@ hr {
     color: var(--color7);
 }
 
+a:link, a:visited {
+    color: var(--color7);
+    text-decoration: underline;
+}
+
 .pheader {
     color: var(--color2);
     font-weight: bolder;
@@ -56,7 +61,7 @@ hr {
 }
 
 @media only screen and (max-width: 900px) {
-    #bgMain, #bgProjects {
+    #bgMain, #bgProjects, #bgArt {
         width: 150px;
         height: 150px;
         border-radius:150px;

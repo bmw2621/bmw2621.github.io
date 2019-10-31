@@ -23,6 +23,7 @@ function slideRight() {
     var blogDiv = document.getElementById("blog");
     var mainDiv = document.getElementById("main");
     var projectsDiv = document.getElementById("projects");
+    var artDiv = document.getElementById("art");
 
     if(currentView === 1){
       console.log(currentView);
@@ -45,13 +46,25 @@ function slideRight() {
       });
       currentView--;
       console.log("Slide -> " + currentView)
+    } else if(currentView === 3) {
+      blogDiv.classList.remove("isLeft")
+      blogDiv.classList.add("isCenter")
+      artDiv.classList.remove("isCenter");
+      artDiv.classList.add("isRight");
+      sleep(500).then(() => {
+        artDiv.classList.add("isHidden")
+      });
+      currentView--;
+      console.log("Slide -> " + currentView)
     }
+    
 }
 
 function slideLeft() {
     var blogDiv = document.getElementById("blog");
     var mainDiv = document.getElementById("main");
     var projectsDiv = document.getElementById("projects");
+    var artDiv = document.getElementById("art");
 
     if(currentView === 0){
       console.log(currentView)
@@ -71,7 +84,16 @@ function slideLeft() {
       mainDiv.classList.add("isLeft");
       currentView++;
       console.log("Slide -> " + currentView)
-    }    
+    }else if(currentView === 2) {
+      console.log(currentView)
+      artDiv.classList.remove("isRight");
+      artDiv.classList.remove("isHidden")
+      artDiv.classList.add("isCenter")
+      blogDiv.classList.remove("isCenter");
+      blogDiv.classList.add("isLeft");
+      currentView++;
+      console.log("Slide -> " + currentView)
+    }     
 }
 
 function navToggle() {
