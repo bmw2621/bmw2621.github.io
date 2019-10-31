@@ -18,7 +18,7 @@
       margin: 0px;
       align-self: center;
       z-index: 3;
-      font-family: sans-serif;
+
       font-size: 25px;
       font-weight: light;
       color: var(--color7);
@@ -35,7 +35,7 @@
       margin: 0px;
       text-align: center;
       z-index: 3;
-      font-family: sans-serif;
+
       font-size: 25px;
       font-weight: bolder;
       color: var(--color7)
@@ -169,7 +169,7 @@
       height: 50px;
       padding: 0px;
       margin: 0px 20px 0px 20px;
-      font-family: sans-serif;
+
       font-size: 25px;
       font-weight: light;
       color: var(--color7);
@@ -206,7 +206,7 @@
       margin: 0px;
       text-align: center;
       z-index: 3;
-      font-family: sans-serif;
+
       font-size: 25px;
       font-weight: bolder;
       color: var(--color7)
