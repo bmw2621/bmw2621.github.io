@@ -107,8 +107,7 @@ a:link, a:visited {
       margin-right: auto;
       max-width:100%;
   }
- 
-  
+
 
 @media only screen and (max-width: 900px) {
     #bgMain, #bgProjects, #bgArt {
@@ -154,6 +153,10 @@ a:link, a:visited {
     body, html {
         height: fit-content;
         overflow-y: visible;
+    }
+
+    ul {
+        list-style-type: none;
     }
 }
 
