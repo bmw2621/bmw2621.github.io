@@ -18,6 +18,12 @@
     var closeBtn = document.getElementById("closeBtn"); 
     modalContent.insertAdjacentHTML("beforeend", `<img class='photo' intrensicsize='${img.width} x ${img.height}' src='${image}'>`)
     modalContent.style.display = "block";
+    
+    var c = document.body.children
+    for(let i = 1; i < c.length; i++){
+        c[i].style.filter = 'blur(20px)'
+    }
+    
     modal.style.display = "block";
 
 
@@ -26,5 +32,10 @@
         modalContent.innerHTML = ""
         modalContent.style.display = "none"
         modal.style.display = "none";
+        var c = document.body.children
+        for(let i = 1; i < c.length; i++){
+            c[i].style.filter = 'none'
+        }
+    
     }
  }
