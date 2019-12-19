@@ -20,7 +20,7 @@
     modalContent.style.display = "block";
     
     var allBodyChildren = document.body.children
-    for(let i = 1; i < c.length; i++){
+    for(let i = 1; i < allBodyChildren.length; i++){
         allBodyChildren[i].style.filter = 'blur(20px)'
     }
     
