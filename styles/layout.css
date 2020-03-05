@@ -142,6 +142,10 @@
 
 
 @media only screen and (min-width: 901px) {
+  .arrows {
+    display: none;
+  }
+  
   .socialMediaLogo {
       width: 15%;
       max-width: 70px;
